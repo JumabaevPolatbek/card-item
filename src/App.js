@@ -41,9 +41,7 @@ class App extends React.Component {
 	}
 	bgc() {
 		var rndNum =
-			Math.round(Math.random() * 10) === 0
-				? 1
-				: Math.round(Math.random() * 10);
+			Math.round(Math.random() * 10) ;
 		var arrColor = [
 			'yellow',
 			'green',
