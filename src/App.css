@@ -1,0 +1,11 @@
+.listnote{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  color: #000;
+}
+.close{
+  cursor: pointer;
+  padding: 10px;
+}
